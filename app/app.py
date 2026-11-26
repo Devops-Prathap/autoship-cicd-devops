@@ -16,7 +16,7 @@ def home():
                    justify-content:center;align-items:center;text-align:center;
                    font-family:Arial;background:#0f172a;color:#e2e8f0">
         <h1>🚀 AutoShip CI/CD Pipeline</h1>
-        <p>GitHub → Jenkins (AWS EC2) → Docker Hub → Kubernetes (GKE)</p>
+        <p>GitHub →  Docker Hub → AWS ECR → Kubernetes (Kind)</p>
         <p>Version: <b>{version}</b></p>
       </body>
     </html>
